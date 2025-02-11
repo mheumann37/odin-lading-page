@@ -63,3 +63,30 @@ button.sign-up {
     border: 1px solid #3882f6;
     color: #f9faf8;
   }
+
+h1.info-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin: 75px 0px;
+    text-align: center;
+}
+
+  .cityscape {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+
+.buildings {
+    max-width: 150px;
+    text-align: center;
+}
+
+  .icon {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #3882f6;
+    border-radius: 8px;
+    background-color: #3882f6;
+  }
