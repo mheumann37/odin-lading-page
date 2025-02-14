@@ -72,13 +72,13 @@ h1.info-header {
     text-align: center;
 }
 
-  .cityscape {
+  .population {
     display: flex;
     justify-content: center;
     gap: 50px;
   }
 
-.buildings {
+.person {
     max-width: 150px;
     text-align: center;
 }
