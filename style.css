@@ -70,12 +70,12 @@ button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+  background: #3882f6;
+  color: #f9faf8;
 }
 
 button.sign-up {
-  background: #3882f6;
   border: 1px solid #3882f6;
-  color: #f9faf8;
 }
 
 .section-three {
@@ -114,52 +114,71 @@ button.sign-up {
   border-radius: 8px;
 }
 
-  .testimonial {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #e5e7eb;
-  }
+.section-four {
+  background-color: #e5e7eb;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .quotation {
-    font-size: 36px;
-    color: #1f2937;
-    font-weight: 300;
-    font-style: italic;
-  }
+.box-four {
+  width: 70%;
+}
 
-  .citation {
-    text-align: right;
-    font-size: 24px;
-    color: #1f2937;
-    font-weight: bold;
-  }
+.quotation {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+}
 
-  .section-four {
-    height: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.citation {
+  text-align: right;
+  font-size: 24px;
+  color: #1f2937;
+  font-weight: bold;
+}
 
-  .box-four {
-    background: #3882f6;
-    height: 125px;
-    width: 60%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  }
+.section-five {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .footer {
-    background: #1f2937;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.box-five {
+  background: #3882f6;
+  height: 125px;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
- .copyright {
-    font-size: 18px;
-    color: #e5e7eb;
-    margin: 16px;
+.action-main {
+  font-size: 24px;
+  color: #e5e7eb;
+}
+
+.action-subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.box-five button {
+  border: 1px solid #f9faf8;
+}
+
+.section-six {
+  background: #1f2937;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-six {
+  font-size: 18px;
+  color: #e5e7eb
 }
